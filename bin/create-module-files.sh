@@ -22,7 +22,7 @@ echo "Set PREFIX and source the init script (in bash)"
 PREFIX=/usr/share/Modules
 source ${PREFIX}/init/bash
 
-export MODULEPATH=/apps/modulefiles:$MODULEPATH
+export MODULEPATH=/tmp/apps/modulefiles:$MODULEPATH
 
 all_envs=$(find $JASPY_BASE_DIR/jaspy -name "envs" -type d)
 
